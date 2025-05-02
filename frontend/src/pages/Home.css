@@ -1,0 +1,11 @@
+.home__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+}
+
+.home__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}

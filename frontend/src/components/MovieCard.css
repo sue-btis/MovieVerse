@@ -1,0 +1,46 @@
+.movie__card {
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    padding: var(--spacing-md);
+    margin: var(--spacing-sm);
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.movie__title {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    color: var(--color-primary);
+}
+
+.movie__genre {
+    font-size: var(--font-size-sm);
+    color: var(--color-muted);
+}
+
+.movie__overview {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+}
+
+.movie__rating {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.movie__link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.movie__link:hover {
+    text-decoration: underline;
+}
+
+.movie__platform {
+    font-size: var(--font-size-sm);
+    color: var(--color-muted);
+}
