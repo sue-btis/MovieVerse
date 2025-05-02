@@ -1,4 +1,4 @@
-package com.haswe.watchit;
+package com.haswe.movieverse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

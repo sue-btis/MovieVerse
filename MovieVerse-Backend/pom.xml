@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.haswe</groupId>
-    <artifactId>watchIt</artifactId>
+    <artifactId>movieVerse</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Backend</name>
     <description>Backend</description>
@@ -67,6 +67,11 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
         </dependency>
     </dependencies>
 

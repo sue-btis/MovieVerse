@@ -1,0 +1,13 @@
+package com.haswe.movieverse.model;
+
+import lombok.Data;
+
+@Data
+public class Movie {
+    private String title;
+    private String overview;
+    private String genre;
+    private String rating;
+    private String trailerUrl;
+    private String streamingPlatform;
+}
