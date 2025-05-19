@@ -1,0 +1,8 @@
+from fastapi import FastAPI, Query
+from model.recommender import get_recommendations
+app = FastAPI()
+
+@app.get("/recommend")
+def recommend(genre: str = Query(...), keyword: str = Query(...)):
+    results = get_recommendations(genre, keyword)
+    return {"results": results}
